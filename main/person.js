@@ -6,6 +6,6 @@ function Person(name,age)
   this.age=age;
   this.introduce=function()
   {
-    conlog("My name is ",name,". I am ",age," years old.");
+    return "My name is "+name+". I am "+age+" years old.";
   }
 }
